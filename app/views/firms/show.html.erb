@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @firm.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @firm.address %>
+</p>
+
+<p>
+  <b>Oib:</b>
+  <%= @firm.oib %>
+</p>
+
+
+<%= link_to 'Edit', edit_firm_path(@firm) %> |
+<%= link_to 'Back', firms_path %>
